@@ -21,9 +21,10 @@ Output
 */
 
 
-let x = 0;
-let n = 5;
+const x = 0;
+const n = 5;
 let list = [];
+
 for (let i = x; i <= n; i++) {
     list.push(i);
 }

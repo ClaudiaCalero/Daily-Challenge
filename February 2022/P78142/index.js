@@ -22,8 +22,8 @@ OUTPUT
 
 //An array of numbers that we want to get
 //the average of.
-let array = [1, 4, 9];
-let list = [7.4];
+const array = [1, 4, 9];
+const list = [7.4];
 
 function PrintAverage (array) {
 
