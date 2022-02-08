@@ -22,19 +22,19 @@ OUTPUT
 
 //An array of numbers that we want to get
 //the average of.
-const array = [1, 4, 9];
-const list = [7.4];
+let array = [1, 4, 9];
+let list = [7.4];
 
 function PrintAverage (array) {
 
-    
+
     let total = 0;
     let count = 0;
 
 // A function for count the total number of elements in an array +
 //by calculating the sum of these elements and then dividing the obtained by the total number of values to get the average
-    array.forEach(function(item){ 
-        total += item;
+    array.forEach(function(num){ 
+        total += num;
         count++;
          });
 
