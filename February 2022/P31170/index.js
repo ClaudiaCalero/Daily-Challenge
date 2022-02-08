@@ -8,11 +8,11 @@ Output
 
 Print the “multiplication table” of n. */
 
-function tablaMultiplicar(tabla) {
+function tablaMultiplicar(n) {
     for( let i = 1; i < 11; i++) {
         document.write("<li>");
         //document.write para escibir 
-        document.write(tabla + " x " + i + " = " + (tabla * i));
+        document.write(n + " x " + i + " = " + (n * i));
         document.write("</li>");
      }
 }
