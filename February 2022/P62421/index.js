@@ -9,12 +9,9 @@
 //Input: b b c
 //Output: c b b
 
-/*let listInput1 = [ "hola", "adeu", "bye"]
 
-function reverseListInput1(listInput1) {
-        return listInput1.split("").reverse().join("");
-    
+function reverse_three(a,b,c) {
+        console.log(c,b,a)
 }
 
-//reverseListInput1("bye", "adeu", "hola");
-*/
+
