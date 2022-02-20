@@ -19,44 +19,19 @@ The number of digits of 12345 is 5.
 The number of digits of 0 is 1.
 */
 
-const num = 7;
-const count = 0;
-function digits(num, count) {
+function digits(num) {
+    let a = 0;
     while (num > 0) {
-        count++;
-        num= parseInt(num / 10);
+        a++;
+        num = parseInt(num / 10);
     }
-    return count;
+    return a;
 }
-let result = digits(num, count);
+
+let result = digits(7);
+let result1 = digits(12345);
+let result2 = digits(0);
 
 console.log(result);
-
-
-const num1 = 12345;
-const count1 = 0;
-function digits1(num1, count1) {
-    while (num1 > 0) {
-        count1++;
-        //Converts a string to an integer.
-        num1 = parseInt(num1 / 10);
-    }
-    return count1;
-}
-let result1 = digits1(num1, count1);
-
 console.log(result1);
-
-
-const num2 = 0;
-const count2 = 0;
-function digits2(num2, count2) {
-    while (num2 > 0) {
-        count2++;
-        num2 = parseInt(num2 / 10);
-    }
-    return count2;
-}
-let result2 = digits2(num2, count2);
-
 console.log(result2);

@@ -39,4 +39,23 @@ Output
 -7 */
 
 
+function decreasing(x, z) {
+    // Si la x es mes gran que la z, la x agafa el valor de z i la z agafa el valor de x
+    if(x > z) {
+       [x, z] = swap(x,z);
+    }
+    for (let i = z; i >= x; i--) {
+        console.log(i);
+    } 
+}
 
+decreasing(3, 7);
+decreasing(5, -3);
+
+
+function swap(a, b) {
+   let auxi = a;
+    a = b;
+    b = auxi;
+    return [a, b]
+}
