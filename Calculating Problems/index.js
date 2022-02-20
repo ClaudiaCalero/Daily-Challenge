@@ -141,13 +141,27 @@ function converterRadians(rad) {
 Write a function for conversion of US dollars (USD) into Bulgarian levs (BGN). 
 Round the result to 2 digits after the decimal point. Use a fixed rate between a dollar and lev: 1 USD = 1.79549 BGN. */
 
-function converteMoney(usd, bgn) {
-    let dol = 1;
-    let lev = 1.79549;
-    let currency = usd * bgn; 
+function convertMoney(usd) {
+let currency = usd * 1.79549; 
     console.log("Dollars converted in Bulgarian levs = " + currency.toFixed(2));
     }
-    converteMoney(20);
-    converteMoney(100);
-    converteMoney(12.5);
+    convertMoney(20);
+    convertMoney(100);
+    convertMoney(12.5);
     
+/*Problem: * Currency Converter
+Write a function for the conversion of money from one currency into another. 
+It has to support the following currencies: BGN, USD, EUR, GBP. Use the following fixed currency rates: */
+
+function currencyConverter([usd, eur, gbp]) {
+//no se fer això
+}
+
+
+/*Problem: ** Date Calculations – 1000 Days on the Earth
+Write a function that reads a birth date in format dd-MM-yyyy and calculates the date 
+on which 1000 days are turned since this birth date and prints it in the same format. */
+
+
+
+function dateCalculations
